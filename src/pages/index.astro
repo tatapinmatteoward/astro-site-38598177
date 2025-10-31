@@ -1,0 +1,191 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="FunPetToys Blog - Discover Fun and Engaging Toys for Your Pets!" description="Welcome to FunPetToys Blog, your go-to source for playful pet toy recommendations, reviews, and tips to keep your furry friends entertained and happy.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden bg-gradient-to-br from-primary to-teal-400">
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute top-0 left-0 w-64 h-64 bg-accent rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+      <div class="absolute top-0 right-0 w-64 h-64 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+      <div class="absolute bottom-0 left-1/2 w-64 h-64 bg-green-300 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 py-24 md:py-32 relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-block mb-6 px-4 py-1 bg-white bg-opacity-20 rounded-full backdrop-blur-sm">
+          <span class="text-white font-medium">🐾 Paws & Play Edition</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          FunPetToys <span class="text-accent">Blog</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-white font-light mb-10 max-w-2xl mx-auto">
+          Discover Fun and Engaging Toys for Your Pets!
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#latest-posts" class="px-8 py-4 bg-accent hover:bg-yellow-500 text-primary font-bold rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
+            Explore Toy Picks
+          </a>
+          <a href="#why-us" class="px-8 py-4 bg-white bg-opacity-20 hover:bg-opacity-30 text-white font-bold rounded-full transition-all duration-300 backdrop-blur-sm border border-white border-opacity-30">
+            Why Choose Us?
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro Section -->
+  <section class="py-16 bg-gradient-to-b from-white to-emerald-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary bg-opacity-10 mb-6">
+          <i class="fas fa-paw text-2xl text-primary"></i>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Hey there, pet lovers!</h2>
+        <div class="prose prose-lg max-w-none mx-auto text-gray-600">
+          <p class="mb-6 text-xl">
+            Are you tired of the same old fetch games? At FunPetToys Blog, we're all about bringing <span class="font-bold text-primary">joy</span> and <span class="font-bold text-accent">excitement</span> to your pet's playtime. Whether you have a bouncy puppy, a curious kitten, or a clever bird, we've got the scoop on toys that will make tails wag and feathers ruffle.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="why-us" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Choose FunPetToys?</h2>
+        <div class="w-24 h-1 bg-accent mx-auto"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+        <div class="bg-gradient-to-br from-primary to-teal-400 rounded-2xl p-8 text-white shadow-xl transform transition-transform duration-300 hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-20 flex items-center justify-center mb-6">
+            <i class="fas fa-user-shield text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Expert Recommendations</h3>
+          <p class="opacity-90">Curated picks from pet enthusiasts and pros who know what makes pets truly happy.</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-accent to-yellow-500 rounded-2xl p-8 text-primary shadow-xl transform transition-transform duration-300 hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-full bg-primary bg-opacity-20 flex items-center justify-center mb-6">
+            <i class="fas fa-gamepad text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Fun-Focused Fun</h3>
+          <p class="opacity-90">Only the most engaging, durable toys that spark imagination and keep pets entertained.</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-emerald-500 to-primary rounded-2xl p-8 text-white shadow-xl transform transition-transform duration-300 hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-full bg-white bg-opacity-20 flex items-center justify-center mb-6">
+            <i class="fas fa-lightbulb text-2xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Tailored Tips</h3>
+          <p class="opacity-90">Advice on choosing toys for different ages, breeds, and play styles to suit every pet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Posts Section -->
+  <section id="latest-posts" class="py-20 bg-gradient-to-b from-emerald-50 to-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Latest Buzz</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Check out our recent posts packed with fun pet toy discoveries</p>
+        <div class="w-24 h-1 bg-accent mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Post Card 1 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="h-48 bg-gradient-to-r from-primary to-teal-400 flex items-center justify-center">
+            <i class="fas fa-cat text-7xl text-white opacity-30"></i>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center text-sm text-gray-500 mb-3">
+              <i class="far fa-calendar mr-2"></i>
+              <span>May 15, 2023</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Top 10 Interactive Toys for Cats</h3>
+            <p class="text-gray-600 mb-4">Laser pointers to puzzle feeders – keep your feline friends engaged for hours!</p>
+            <a href="#" class="inline-flex items-center text-primary font-semibold hover:text-teal-600">
+              Read More
+              <i class="fas fa-arrow-right ml-2 text-sm"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Post Card 2 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="h-48 bg-gradient-to-r from-accent to-yellow-500 flex items-center justify-center">
+            <i class="fas fa-dog text-7xl text-white opacity-30"></i>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center text-sm text-gray-500 mb-3">
+              <i class="far fa-calendar mr-2"></i>
+              <span>April 28, 2023</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Best Chew Toys for Puppies</h3>
+            <p class="text-gray-600 mb-4">Durable options that satisfy teething needs while keeping your pup safe.</p>
+            <a href="#" class="inline-flex items-center text-primary font-semibold hover:text-teal-600">
+              Read More
+              <i class="fas fa-arrow-right ml-2 text-sm"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Post Card 3 -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="h-48 bg-gradient-to-r from-purple-400 to-primary flex items-center justify-center">
+            <i class="fas fa-feather-alt text-7xl text-white opacity-30"></i>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center text-sm text-gray-500 mb-3">
+              <i class="far fa-calendar mr-2"></i>
+              <span>April 12, 2023</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-3">Mental Stimulation for Parrots</h3>
+            <p class="text-gray-600 mb-4">Puzzle toys and foraging activities to keep intelligent birds entertained.</p>
+            <a href="#" class="inline-flex items-center text-primary font-semibold hover:text-teal-600">
+              Read More
+              <i class="fas fa-arrow-right ml-2 text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12">
+        <a href="#" class="inline-block px-8 py-4 bg-primary hover:bg-teal-600 text-white font-bold rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg">
+          View All Articles
+          <i class="fas fa-long-arrow-alt-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-primary to-teal-500">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Bring More Fun Home?</h2>
+        <p class="text-xl text-white text-opacity-90 mb-10 max-w-2xl mx-auto">
+          Join our community of pet lovers and get exclusive toy recommendations straight to your inbox!
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-xl mx-auto">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            class="flex-grow px-6 py-4 rounded-full focus:outline-none focus:ring-2 focus:ring-accent"
+          />
+          <button class="px-8 py-4 bg-accent hover:bg-yellow-500 text-primary font-bold rounded-full transition-all duration-300 whitespace-nowrap">
+            Subscribe Now
+          </button>
+        </div>
+        <p class="text-white text-opacity-70 mt-4 text-sm">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
